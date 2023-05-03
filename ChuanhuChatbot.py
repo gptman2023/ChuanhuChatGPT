@@ -468,7 +468,7 @@ if __name__ == "__main__":
     reload_javascript()
     demo.queue(concurrency_count=CONCURRENT_COUNT).launch(
         server_name=server_name,
-        server_port=server_port,
+        server_port=8080,#server_port
         share=share,
         auth=auth_list if authflag else None,
         favicon_path="./assets/favicon.ico",
