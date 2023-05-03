@@ -479,4 +479,4 @@ if __name__ == "__main__":
     # demo.queue(concurrency_count=CONCURRENT_COUNT).launch(auth=("在这里填写用户名", "在这里填写密码")) # 适合Nginx反向代理
     
 # demo.launch(share=True)
-demo.launch(server_name="0.0.0.0", server_port=80)
+demo.launch(server_name="0.0.0.0", server_port=8080)
