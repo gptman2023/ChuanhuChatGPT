@@ -470,7 +470,7 @@ if __name__ == "__main__":
         server_name=server_name,
         server_port=8080,#server_port
         share=share,
-        auth=("ceshi","zuotongxue123"),#auth_list if authflag else None,
+        auth=("ceshi2","zuotongxue123"),#auth_list if authflag else None,
         favicon_path="./assets/favicon.ico",
         inbrowser=not dockerflag, # 禁止在docker下开启inbrowser
     )
